@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: url(images/contactus.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+
+h3 {
+    color: rgb(221, 231, 229);
+    text-align: center;
+    font-family: 'Lobster', Helvetica, Arial, Sans-Serif;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu-bar {
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    margin: 15px;
+    padding-right: 40px;
+    color: burlywood;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: burlywood;
+    padding-left: 50px;
+}
+
+.menu-bar ul li a:hover {
+    color: chocolate;
+    border-radius: 50px
+}
+
+.input:hover {
+    color: chocolate;
+}
+
+.nen-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .nen-menu {
+    display: block;
+    position: absolute;
+    background: rgb(45, 46, 43);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar ul li:hover .nen-menu ul {
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+
+.nen-menu-2 {
+    display: none;
+}
+
+.menu2:hover .nen-menu-2 {
+    display: block;
+    position: absolute;
+    background: rgb(45, 46, 43);
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+iframe {
+    text-align: center;
+    padding-top: 45px;
+    width: 75%;
+    height: 450px;
+    padding-left: 300px;
+}
+
+.hyrja {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.excercise {
+    margin: 100px;
+}
+
+.gym-image {
+    width: 50%;
+    float: right;
+    padding: 50px;
+    border-radius: 80%;
+}
+
+.shop-image {
+    width: 35%;
+    float: left;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+.motivation-image {
+    width: 35%;
+    float: right;
+    padding: 50px;
+    border-radius: 80%;
+}
+
+.diet-image {
+    width: 35%;
+    float: left;
+    padding: 50px;
+    border-radius: 80%;
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.pc-image {
+    width: 70%;
+    height: 50%;
+    background-position: center;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: darkslategray;
+    position: left;
+}
+
+.fotot {
+    text-align: center;
+}
+
+.footer-image {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.contact {
+    padding-top: 100px;
+    text-align: center;
+}
